@@ -1,6 +1,6 @@
 var http = require('http')
 
-var port = process.env.PORT || process.env.port || process.env.OPENSHIFT_NODEJS_PORT || 3000;
+var port = process.env.PORT || process.env.port || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var ip = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
 var server = http.createServer(function( req, res) {
